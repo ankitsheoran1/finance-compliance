@@ -1,0 +1,5 @@
+openai:
+  model: gpt-4
+  tokens: 500
+port: 8080
+prompt: "Here is the content of a webpage and a compliance policy. Please identify any parts of the webpage that do not comply with the policy: %s %s"
